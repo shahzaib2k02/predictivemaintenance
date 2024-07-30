@@ -1,0 +1,69 @@
+/* predictionForm.css */
+.prediction-form-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 400px; /* Adjust this width as needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prediction-form-container form {
+    display: flex;
+    flex-direction: column; /* Single column layout */
+    gap: 10px;
+    width: 100%;
+}
+
+.prediction-form-container .form-group {
+    width: 100%;
+}
+
+.prediction-form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.prediction-form-container input,
+.prediction-form-container textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.prediction-form-container button {
+    width: 100%;
+    padding: 10px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.prediction-form-container button:hover {
+    background-color: #45a049;
+}
+
+.error {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.description-container {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
